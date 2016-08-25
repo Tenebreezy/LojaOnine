@@ -1,0 +1,237 @@
+<html>
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Folhas de estilo -->
+		<link rel="stylesheet" href="../assets/css/frame.css">
+		<link rel="stylesheet" href="../assets/css/style.css">
+		<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+		<!-- folhas de scripts -->
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCz58le1_Jhs-YPVeu6-GaEDE3FN36QFgg"></script>
+
+		<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(32.65489,-24.58787),
+    zoom:7,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+	</head>
+	<body>
+
+			<div class="w3-row">
+  <div class="w3-blue w3-container w3-half">
+    <center><h1>Sipmlons</h1></center>
+  </div>
+  <div class="w3-container  w3-half">
+		    <div class="w3-row-padding">
+		  <div class="w3-half">
+		    
+		    <input class="w3-input w3-border" type="text" placeholder="Email">
+		    <button class="w3-btn w3-blue">Login</button><span></span><button class="w3-btn w3-gray">Sing-Up</button>
+		  </div>
+		  <div class="w3-half">
+		    <label></label>
+		    <input class="w3-input w3-border" type="text" placeholder="***********">
+		  </div>
+		</div>
+  </div>
+</div>
+
+<div class="w3-border-bottom w3-border-red">
+  
+ 
+</div>
+<div class="w3-row">
+  <div class="w3-green w3-container w3-quarter">
+    <div class="w3-tag w3-red">S</div>
+<div class="w3-tag w3-black" >I</div>
+<div class="w3-tag w3-yellow">M</div>
+<div class="w3-tag w3-black">P</div>
+<div class="w3-tag w3-red">L</div>
+<div class="w3-tag w3-black" >O</div>
+<div class="w3-tag w3-yellow">N</div>
+<div class="w3-tag w3-black">S</div> 
+<h5><div class="w3-tag w3-red">Beauty</div><div class="w3-tag w3-yellow">Care</div></h5>
+  </div>
+  <div class="w3-container w3-half">
+   
+   <center><ul class="w3-navbar w3-border w3-light-grey" styele="magin-left:10%;">
+   	
+  <li><a  href="../index.html">Home</a></li>
+  <li><a class="w3-green" href="#">Produtos</a></li>
+  <li><a href="#">Lojas</a></li>
+  <li><a  href="about.html">About Us</a></li>
+   <li><a  href="#">Contact Us</a></li>
+  
+</ul></center>
+  </div>
+  <div class="w3-white  w3-quarter">
+  	<form class="form-inline pull-right">
+                 <input class="form-control" type="text" placeholder="Pesquisar">
+                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+           </form>
+  </div>
+   
+</div>
+<!-- fim do cabecalho -->
+<br><br><br>
+	<table class="w3-table w3-striped  w3-margin-top" id="myTable">
+  <tr>
+    <th style="width:60%;">Name</th>
+    <th style="width:40%;">Price</th>
+  </tr>
+  <tr>
+    <td>Creme-Nivea</td>
+    <td>197,00Mt<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+  <tr>
+    <td>Perfume</td>
+    <td>214,00Mt<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+  <tr>
+    <td>Cabelo Rasta</td>
+    <td>454,00MT<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+  <tr>
+    <td>Creme de baunilia</td>
+    <td>267,00Mt<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+  <tr>
+    <td>Gel pra cabelos</td>
+    <td>134,00Mt<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+  <tr>
+    <td>Unhas acrilicas</td>
+    <td>873,00Mt<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+  <tr>
+    <td>Creme de Bebe</td>
+    <td>561,00MT<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+  <tr>
+    <td>Perfume 212</td>
+    <td>677,00Mt<button class="w3-btn w3-tiny w3-red pull-right">Remove</button></td>
+  </tr>
+</table>
+<div class="w3-border-top w3-border-bottom" style="width:70%;margin-right:15%;float:right;">
+
+</div>
+	<table class="w3-table w3-striped  w3-margin-top" id="myTable">
+	<tr>
+	    <th  style="width:50%;">
+	    	<div class="w3-tag w3-jumbo w3-green" style="margin-right:75%;float:right;">
+			  <span class="w3-xxlarge">49</span>
+			  <span class="w3-large">,Mt</span>
+			</div>
+	 	</th>
+	 <th style="width:40%;">
+	 	<button class="w3-btn w3-tiny  w3-red" onclick="document.getElementById('id01').style.display='block'" >Buy</button>
+		<button class="w3-btn w3-tiny w3-green">Cancel</button>
+	</th>
+  </tr>
+	</table>
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-8">
+    <header class="w3-container w3-green">
+      <span onclick="document.getElementById('id01').style.display='none'"
+      class="w3-closebtn">&times;</span>
+      <h2>Sucessful!!!</h2>
+    </header>
+    <div class="w3-container">
+      <p>Compra Efectuada com Sucesso</p>
+      <p>Voltar ao Inicio</p>
+      <p><a href="../index.html"><button class="w3-btn w3-tiny w3-green" >Home</button></a></p>
+    </div>
+ 
+  </div>
+</div>
+
+<!-- 
+<div class="w3-row">
+	<div class="w3-tag w3-jumbo w3-green" style="margin-right:75%;float:right;">
+	  <span class="w3-xxlarge">49</span>
+	  <span class="w3-large">,99</span>
+	</div>
+	<div style="margin-right:20%;float:right;">
+	<button class="w3-btn w3-tiny w3-red">Buy</button>
+	<button class="w3-btn w3-tiny w3-green">Cancel</button>
+	</div>
+</div> -->
+  
+<br>
+						<br>
+				
+
+				<!-- rodape -->
+				<div class="w3-border-top w3-border-red"></div>				
+<div class="w3-border-top w3-border-red">
+	<footer class="w3-container w3-teal">
+	 <center>
+	  <button class="w3-btn-floating-large w3-blue"><span class="fa fa-camera"></span></button>
+	  <button class="w3-btn-floating-large w3-orange"><span class="fa fa-commenting-o"></span></button>
+	  <button class="w3-btn-floating-large w3-cyan"><span class="fa fa-thumbs-up"></span></button>
+	  <button class="w3-btn-floating-large w3-brown"><span class="fa fa-hand-scissors-o"></span></button>
+	</center> 
+	  
+	  <form class="form-inline pull-right">
+	  	
+          <h5>Receba nossas novidades no email</h25>  
+               <input class="form-control" type="text" placeholder="Enter Email">
+                <button class="btn btn-outline-success" type="submit">Cadastrar</button>
+           </form>
+	</footer>
+
+	<div class="w3-row">
+  <div class="w3-green w3-container w3-threequarter">
+    <h3>Vist us</h3>
+  		<div class="w3-row-padding w3-margin-top">
+ <div class="w3-third">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p></p>
+  </div>
+
+ <div class="w3-third">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+
+ <div class="w3-third">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+
+</div>
+
+
+  </div>
+  <div class="w3-container w3-quarter">
+    		<form class="w3-container w3-card-4 w3-light-grey">
+
+<h3>Wite Your Coment</h3>
+<p>
+<input class="w3-input w3-border w3-round-large" name="last" type="textarea"></p>
+<p><button class="w3-btn w3-red">Comeent</button></p>
+
+</form>
+ 
+  </div>
+</div>
+	<div class="w3-border-top  w3-border-bottom w3-border-red">
+  <center>Aptech Developer </center>
+</div>
+</div>
+
+
+
+
+	</body>
+
+
+
+</html>
